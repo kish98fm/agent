@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:example:Lorry;1",
+  "@type": "Interface",
+  "displayName": "Lorry",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "operationStatus",
+      "schema": "string"
+    }
+  ]
+}

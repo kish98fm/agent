@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:example:LogisticCenter;1",
+  "@type": "Interface",
+  "displayName": "Logistic Center",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "name",
+      "schema": "string"
+    }
+  ]
+}

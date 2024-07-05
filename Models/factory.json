@@ -1,0 +1,18 @@
+{
+  "@id": "dtmi:example:Warehouse;1",
+  "@type": "Interface",
+  "displayName": "Warehouse",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "storageLevel",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "storageCapacity",
+      "schema": "double"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "@id": "dtmi:example:Machine;1",
+  "@type": "Interface",
+  "displayName": "Machine",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "energyCost",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "materialTotalPrice",
+      "schema": "double"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "@id": "dtmi:example:Meter;1",
+  "@type": "Interface",
+  "displayName": "Meter",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "dataPoint1",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "dataPoint2",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "dataPoint3",
+      "schema": "double"
+    }
+  ]
+}
